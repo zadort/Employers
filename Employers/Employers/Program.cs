@@ -37,15 +37,19 @@ namespace Employers
             int legnagyobbKereset = 0;
             foreach (var item in lista)
             {
-                if (legnagyobbKereset >)
+                if (item.kereset > legnagyobbKereset)
                 {
-
+                    legnagyobbKereset = item.kereset;
                 }
+                Console.WriteLine($"{item.nev} {item.azonosito}" + legnagyobbKereset);
             }
             #endregion
 
             #region 5. feladat
+            foreach (var item in lista)
+            {
 
+            }
             #endregion
 
             #region 6. feladat
