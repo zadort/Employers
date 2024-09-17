@@ -31,9 +31,8 @@ namespace Employers
             Console.WriteLine("ÖSSZES NÉV");
             foreach (var item in lista)
             {
-                Console.Write($"{item.nev} ");
+                Console.WriteLine($"{item.nev} ");
             }
-            Console.WriteLine();
             Console.WriteLine();
             #endregion
 
