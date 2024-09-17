@@ -48,7 +48,10 @@ namespace Employers
             #region 5. feladat
             foreach (var item in lista)
             {
-
+                if (65 - 10 == item.kor)
+                {
+                    Console.WriteLine($"{item.nev} {item.kor}");
+                }
             }
             #endregion
 
