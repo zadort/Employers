@@ -31,7 +31,7 @@ namespace Employers
             Console.WriteLine("ÖSSZES NÉV");
             foreach (var item in lista)
             {
-                Console.WriteLine($"{item.nev} ");
+                Console.WriteLine($"{item.nev}");
             }
             Console.WriteLine();
             #endregion
@@ -47,7 +47,7 @@ namespace Employers
                     legnagyobbKereset = lista[i];
                 }    
             }
-            Console.WriteLine($"{legnagyobbKereset.azonosito} {legnagyobbKereset.nev}");
+            Console.WriteLine($"Azonosító: {legnagyobbKereset.azonosito} | Név: {legnagyobbKereset.nev}");
             Console.WriteLine();
             #endregion
 
@@ -56,9 +56,9 @@ namespace Employers
             Console.WriteLine("AKIKNEK 10 ÉVÜK VAN A NYUGDÍJIG");
             foreach (var item in lista)
             {
-                if (65 - 10 == item.kor)
+                if (55 == item.kor)
                 {
-                    Console.WriteLine($"{item.nev} {item.kor}");
+                    Console.WriteLine($"Név: {item.nev} | Kor: {item.kor}");
                 }
             }
             Console.WriteLine();
@@ -75,7 +75,7 @@ namespace Employers
                     db++;
                 }
             }
-            Console.WriteLine(db);
+            Console.WriteLine($"{db} személy");
             #endregion
 
             Console.ReadLine();
